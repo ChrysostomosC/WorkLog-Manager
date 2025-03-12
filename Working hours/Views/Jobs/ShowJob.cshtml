@@ -1,0 +1,14 @@
+﻿@model Job
+
+<h1 class="employee-title">Task:</h1>
+
+<div class="employee-container">
+    <p><strong>Title:</strong> @Model.Title</p>
+    <p><strong>Date:</strong> @Model.Date</p>
+    <p><strong>Time:</strong> @Model.Time</p>
+    <p><strong>Description:</strong> @Model.Description</p>
+
+    <form action="/Jobs/DeleteJob/@Model.Id" method="post">
+        <button class="delete-btn">Delete</button>
+    </form>
+</div>

@@ -1,0 +1,13 @@
+﻿@model Job
+
+<form action="/Jobs/EditJob/@Model.Id" method="post" class="form-container">
+    <label>Title</label>
+    <input type="text" name="Title" placeholder="Title" value="@Model.Title" />
+    <label>Date</label>
+    <input type="text" name="Date" placeholder="Date" value="@Model.Date" />
+    <label>Time</label>
+    <input type="time" name="Time" placeholder="Time" value="@Model.Time" />
+    <label>Task description</label>
+    <textarea name="Description" placeholder="Description">@Model.Description</textarea>
+    <button class="custom-btn">Save</button>
+</form>

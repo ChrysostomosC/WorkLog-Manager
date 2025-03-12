@@ -1,0 +1,26 @@
+﻿@model List<Job>
+
+<h1>All Tasks</h1>
+
+<p><a href="/Jobs/CreateJob" class="create-btn">➕ Create task</a></p>
+
+<table class="employee-table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Job job in Model)
+        {
+            <tr>
+                <td>@job.Title</td>
+                <td>
+                    <a href="/Jobs/ShowJob/@job.Id" class="show-btn">show content</a>
+                    <a href="/Jobs/EditJob/@job.Id" class="edit-btn">edit content</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

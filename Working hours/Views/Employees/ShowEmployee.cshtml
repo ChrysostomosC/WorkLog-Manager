@@ -1,0 +1,17 @@
+﻿@model Employee
+
+<h1 class="employee-title">Employee Details</h1>
+
+<div class="employee-container">
+    <p><strong>First name:</strong> @Model.FirstName</p>
+    <p><strong>Last name:</strong> @Model.LastName</p>
+    <p><strong>Birthday:</strong> @Model.Birthday</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Address:</strong> @Model.Address</p>
+    <p><strong>Postal code:</strong> @Model.PostalCode</p>
+    <p><strong>Phone number:</strong> @Model.PhoneNumber</p>
+
+    <form action="/Employees/DeleteEmployee/@Model.Id" method="post">
+        <button class="delete-btn">Delete</button>
+    </form>
+</div>

@@ -1,0 +1,19 @@
+﻿@model Employee
+
+<form action="/Employees/EditEmployee/@Model.Id" method="post" class="form-container">
+    <label>First name</label>
+    <input type="text" name="FirstName" placeholder="First name" value="@Model.FirstName" />
+    <label>Last name</label>
+    <input type="text" name="LastName" placeholder="Last name" value="@Model.LastName" />
+    <label>Birthday</label>
+    <input type="text" name="Birthday" placeholder="Birthday" value="@Model.Birthday" />
+    <label>Email</label>
+    <input type="text" name="Email" placeholder="Email" value="@Model.Email" />
+    <label>Address</label>
+    <input type="text" name="Address" placeholder="Address" value="@Model.Address" />
+    <label>Postal code</label>
+    <input type="text" name="PostalCode" placeholder="Postal code" value="@Model.PostalCode" />
+    <label>Phone number</label>
+    <input type="text" name="PhoneNumber" placeholder="Phone number" value="@Model.PhoneNumber" />
+    <button class="custom-btn">Save</button>
+</form>
