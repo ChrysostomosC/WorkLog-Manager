@@ -1,19 +1,20 @@
-Tidsloggningstjänst:
-Bygg en sida där användare kan logga sin arbetstid. 
-Det bör finnas 2 modeller: anställd, och arbete
-Anställd bör bland annat ha följande properties (utöver IDt som krävs för MongoDB): namn och födelseår.
-Arbete bör bland annat ha följande properties (utöver IDt som krävs för MongoDB): tid och arbetsbeskrivning.
-Användare på sidan bör kunna 
-✓ Skapa anställda
-✓ Visa alla anställda
-✓ Visa enskilda anställda
-✓ Ta bort anställda
-✓ Redigera anställda
-✓ Skapa arbete
-✓ Visa alla arbeten
-✓ Visa enskilda arbeten
-✓ Ta bort arbete
-✓ Redigera arbete
+This project is a time tracking system where users can manage employees and log their work hours. The application includes two main models:
+
+Employee: Stores employee details such as name and birth year.
+Work Entry: Records work sessions with time and task descriptions.
+The system is designed to support basic CRUD (Create, Read, Update, Delete) operations for both employees and work entries.
+
+### Features
+✅ Create new employees
+✅ View a list of all employees
+✅ View details of a specific employee
+✅ Edit employee information
+✅ Delete employees
+✅ Create work entries
+✅ View a list of all work entries
+✅ View details of a specific work entry
+✅ Edit work entries
+✅ Delete work entries
 
 ![Screenshot 2025-03-16 122203](https://github.com/user-attachments/assets/41505341-f284-4116-b5e4-efbbb8c63887) <hr />
 ![Screenshot 2025-03-16 122225](https://github.com/user-attachments/assets/6e9d61a0-2e27-44fb-bf56-ca0f5b11911a) <hr />
