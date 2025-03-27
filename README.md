@@ -1,20 +1,18 @@
-This project is a time tracking system where users can manage employees and log their work hours. The application includes two main models:
+TimeTrack Pro ⏳
+A simple time-tracking system that allows users to manage employees and log work hours efficiently.
 
-Employee: Stores employee details such as name and birth year.
-Work Entry: Records work sessions with time and task descriptions.
-The system is designed to support basic CRUD (Create, Read, Update, Delete) operations for both employees and work entries.
+Features
+✅ Add, edit, and remove employees 👥
+✅ Track work sessions with time and task descriptions 🕒
+✅ View and manage all work entries 📋
+✅ Perform full CRUD operations for employees and work logs
 
-### Features
-✅ Create new employees
-✅ View a list of all employees
-✅ View details of a specific employee
-✅ Edit employee information
-✅ Delete employees
-✅ Create work entries
-✅ View a list of all work entries
-✅ View details of a specific work entry
-✅ Edit work entries
-✅ Delete work entries
+Models
+Employee – Stores employee details (name, birth year)
+
+Work Entry – Logs work sessions with timestamps and descriptions
+
+Designed for easy use with a clean and functional interface!
 
 ![Screenshot 2025-03-16 122203](https://github.com/user-attachments/assets/41505341-f284-4116-b5e4-efbbb8c63887) <hr />
 ![Screenshot 2025-03-16 122225](https://github.com/user-attachments/assets/6e9d61a0-2e27-44fb-bf56-ca0f5b11911a) <hr />
