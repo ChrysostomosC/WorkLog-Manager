@@ -3,16 +3,16 @@ A simple time-tracking system that allows users to manage employees and log work
 
 ## Features
 ✅ Add, edit, and remove employees 👥 <br />
-✅ Track work sessions with time and task descriptions 🕒
-✅ View and manage all work entries 📋
-✅ Perform full CRUD operations for employees and work logs
+✅ Track work sessions with time and task descriptions 🕒 <br />
+✅ View and manage all work entries 📋 <br />
+✅ Perform full CRUD operations for employees and work logs <br />
 
-Models
-Employee – Stores employee details (name, birth year)
+## Models
+Employee – Stores employee details (name, birth year) <br />
 
-Work Entry – Logs work sessions with timestamps and descriptions
+Work Entry – Logs work sessions with timestamps and descriptions <br />
 
-Designed for easy use with a clean and functional interface!
+Designed for easy use with a clean and functional interface! <br />
 
 ![Screenshot 2025-03-16 122203](https://github.com/user-attachments/assets/41505341-f284-4116-b5e4-efbbb8c63887) <hr />
 ![Screenshot 2025-03-16 122225](https://github.com/user-attachments/assets/6e9d61a0-2e27-44fb-bf56-ca0f5b11911a) <hr />
