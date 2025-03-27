@@ -2,7 +2,7 @@
 A simple time-tracking system that allows users to manage employees and log work hours efficiently.
 
 ## Features
-✅ Add, edit, and remove employees 👥
+✅ Add, edit, and remove employees 👥 <br />
 ✅ Track work sessions with time and task descriptions 🕒
 ✅ View and manage all work entries 📋
 ✅ Perform full CRUD operations for employees and work logs
