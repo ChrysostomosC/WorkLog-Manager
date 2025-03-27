@@ -1,7 +1,7 @@
-TimeTrack Pro ⏳
+# TimeTrack Pro ⏳
 A simple time-tracking system that allows users to manage employees and log work hours efficiently.
 
-Features
+## Features
 ✅ Add, edit, and remove employees 👥
 ✅ Track work sessions with time and task descriptions 🕒
 ✅ View and manage all work entries 📋
