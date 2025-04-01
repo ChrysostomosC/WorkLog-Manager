@@ -1,4 +1,4 @@
-# TimeTrack Pro ⏳
+# WorkLog-Manager ⏳
 A simple time-tracking system that allows users to manage employees and log work hours efficiently.
 
 ## Features
